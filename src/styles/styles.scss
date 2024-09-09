@@ -1,0 +1,42 @@
+@use "sass:map";
+@import "bootstrap";
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: map.get($theme-colors, "primary");
+}
+
+a:hover {
+  color: map.get($theme-colors, "info");
+}
+
+.background {
+  height: 100%;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide,
+.css-13ieibu,
+.css-wl96gi {
+  display: none !important;
+}
+
+.css-lk2cai {
+  width: 1370px !important;
+  height: 848px !important;
+}
